@@ -88,10 +88,11 @@ footer {
 
 /* Write your CSS here */
 main > p:first-child::first-letter {
-float: left;
-background-color: #666;
-color: #f2f2f2;
-font-size: 5rem;
-padding: .4em .2em;
-border-top:
+  float: left;
+  background-color: #666;
+  color: #f2f2f2;
+  font-size: 5rem;
+  padding: .4em .2em;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
 }
