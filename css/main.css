@@ -126,5 +126,6 @@ blockquote {
   border-bottom: 3px solid #333;
   float: left;
   width: 300px;
-
+  margin: 0;
+  margin-left: -150px;
 }
