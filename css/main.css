@@ -93,10 +93,13 @@ main > p:first-child::first-letter {
   background-color: #666;
   color: #f2f2f2;
   font-size: 5rem;
-  padding: .4em .2em;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   margin-right: 10px;
+  font-style: normal;
+  padding: .4em .2em;
+  line-height: 1;
+  margin-left: -.5em;
 }
 
 figure {
@@ -105,6 +108,9 @@ figure {
   border-top: 3px solid #333;
   padding: 6px 0;
   border-bottom: 3px solid #333;
+  margin: 0;
+  margin-right: -150px;
+  margin-left: .7em;
 }
 
 figcaption {
@@ -114,6 +120,7 @@ figcaption {
 
 blockquote {
   font-size: 1.5rem;
+  color: #666;
   border-top: 3px solid #333;
   padding: 6px;
   border-bottom: 3px solid #333;
